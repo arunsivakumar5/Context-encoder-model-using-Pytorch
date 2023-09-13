@@ -1,5 +1,5 @@
 # Context-encoder-model-using-Pytorch
-In this project, We created models to inpaint joints in knee radiography by using Context encoders which helps us remove surgical artifacts from knee radiograph imagesIn this project, We designed algorithms and models to inpaint joints in knee radiography by using Context encoders which helps us remove surgical artifacts from knee radiograph images
+In this project, We created models to inpaint joints in knee radiography by using Context encoders which helps us remove surgical artifacts from knee radiograph images.
 
 # Key Features:
 
