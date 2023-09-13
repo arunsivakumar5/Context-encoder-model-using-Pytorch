@@ -1,8 +1,11 @@
 # Context-encoder-model-using-Pytorch
 In this project, We created models to inpaint joints in knee radiography by using Context encoders which helps us remove surgical artifacts from knee radiograph imagesIn this project, We designed algorithms and models to inpaint joints in knee radiography by using Context encoders which helps us remove surgical artifacts from knee radiograph images
 
-# Introduction:
-This GitHub repository presents a medical image artifact removal system powered by Context encoders. The primary objective of this project is to help users remove medical artifacts present in the images such as knee prostheses, screws, plates, or wires.
+# Key Features:
+
+## Introduction:
+This GitHub repository presents a medical image artifact removal system powered by Context encoders. 
+The primary objective of this project is to help users remove medical artifacts present in the images such as knee prostheses, screws, plates, or wires.
 
 ## Data Loading and Preprocessing:
 The code starts by loading and preprocessing knee radiograph images. It performs various preprocessing steps, including removing artifacts, handling negative images, and checking for blurry images.
@@ -22,3 +25,5 @@ Adam optimizers are used to update the weights of the generator and discriminato
 ## Monitoring and Saving: 
 During training, the code monitors and saves various metrics, including discriminator and generator losses, FID scores (Fréchet Inception Distance), and sample images to visualize the training progress.
 
+# Conclusion
+The generated fakes show that the generator part of our model is able to recreate the joint portion of knee radiographs. Thus we can utilize this encoder model to convert images with surgical artifacts into images without artifacts and re-introduce them into training/testing sets.
